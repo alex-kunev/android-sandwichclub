@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DescriptionStyle">
+        <item name="android:textColor">#4B6A09</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+</resources>
