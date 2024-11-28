@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "26.0.3"
     defaultConfig {
         applicationId "com.udacity.sandwichclub"
         minSdkVersion 16
@@ -16,6 +15,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'com.udacity.sandwichclub'
 }
 
 dependencies {
